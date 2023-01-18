@@ -17,6 +17,10 @@ git add -A                    # add all also from upper files
 git rm -r --cached .          # remove all files from committed
 git rm --cached index.html    # remove file from committed
 
+git push
+
+git pull
+
 type  > index.html # create index.html
 type kansio > index.html # create index.html to kansio-folder
 
