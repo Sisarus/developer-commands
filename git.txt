@@ -20,7 +20,8 @@ git rm --cached index.html    # remove file from committed
 type  > index.html # create index.html
 type kansio > index.html # create index.html to kansio-folder
 
-git commit -m "bootstrap project" # commend all stage files
+git commit -m "bootstrap project"          # commend all stage files
+git commit --amend -m "added little data"  # change last command 
 
 
 git log                                           # shows all comments files. Use q or z to exit
