@@ -1,0 +1,3 @@
+ssh-keygen -o -t rsa -C "email@email.com" # create ssh key
+
+https://www.youtube.com/watch?v=a-zX_qc2S-M
