@@ -12,7 +12,8 @@ cls            # clears command lines
 
 echo "Maailma"             # prints Maailma
 echo helloWold > hello.txt # create folder with text "helloWold"
-more hello.txt
+echo  nice >> hello.txt    # add data to hello.txt
+more hello.txt             # read file 
 
 ren world.txt hello.txt     # renames world to hello
 
@@ -27,3 +28,6 @@ dir | clip # copies all the content of the present working directory to the clip
 
 color att  # to see the colors you can change to
 color 2    # change terminal colors
+
+
+start index.js # opens/shows file

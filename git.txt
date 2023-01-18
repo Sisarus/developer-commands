@@ -21,3 +21,7 @@ type  > index.html # create index.html
 type kansio > index.html # create index.html to kansio-folder
 
 git commit -m "bootstrap project" # commend all stage files
+
+
+git log # shows all comments files. Use q or z to exit
+git show 8fab09809c4e3119031a1c47b624b4c8edabae5f # show log
