@@ -1,0 +1,21 @@
+git --version # shows version
+git --help # commands
+
+git config # commands
+git config --global user.name "Alisa"
+git config --global user.email "alisa.luoma@hotmail.fi"
+
+git config --global color.ui auto
+git  config -l
+
+git init . # create git
+rmdir .git # remove git
+
+git add .                  # add all to git
+git add index.html         # add index.html to git
+git rm -r --cached .          # remove all files from committed
+git rm --cached index.html # remove file from committed
+
+type  > index.html # create index.html
+type kansio > index.html # create index.html to kansio-folder
+

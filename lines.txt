@@ -1,0 +1,29 @@
+dir            # list all items in a directory
+cd..           # goes upperfile
+
+del kansionimi # deletes a file
+tree           # shows current directory
+mkdir kansioni # create folder named "kansioni"
+rmdir kansioni # deletes folder named "kansioni"
+
+move hello.txt my-folder # moves file or folder to my-folder
+
+cls            # clears command lines
+
+echo "Maailma"             # prints Maailma
+echo helloWold > hello.txt # create folder with text "helloWold"
+more hello.txt
+
+ren world.txt hello.txt     # renames world to hello
+
+
+systeminfo
+set
+
+ 
+prompt
+
+dir | clip # copies all the content of the present working directory to the clipboard.
+
+color att  # to see the colors you can change to
+color 2    # change terminal colors
