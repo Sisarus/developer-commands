@@ -11,11 +11,13 @@ git  config -l
 git init . # create git
 rmdir .git # remove git
 
-git add .                  # add all to git
-git add index.html         # add index.html to git
+git add .                     # add all to git from current and down files
+git add index.html            # add index.html to git
+git add -A                    # add all also from upper files
 git rm -r --cached .          # remove all files from committed
-git rm --cached index.html # remove file from committed
+git rm --cached index.html    # remove file from committed
 
 type  > index.html # create index.html
 type kansio > index.html # create index.html to kansio-folder
 
+git commit -m "bootstrap project" # commend all stage files
