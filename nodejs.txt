@@ -1,0 +1,6 @@
+npm init                 // install node    
+node app.js              // run app named app.js. Terminal open to right folder
+
+
+
+npm install -g nodemon  // https://www.npmjs.com/package/nodemon  automatic restart if code changes
