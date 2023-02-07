@@ -36,7 +36,8 @@ node app.js              // run app named app.js. Terminal open to right folder
 npm install -g nodemon  // https://www.npmjs.com/package/nodemon  automatic restart if code changes
 nodemon app.js          // runs app named app.js. Automatic refresh
 
-npm install body-parser  // get json better
+npm install body-parser  // get json better  https://www.npmjs.com/package/body-parser
+const bodyParser = require('body-parser'); // How to use
 
 
 ctrl + C * 2            // ends server
