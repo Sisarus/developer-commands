@@ -1,1 +1,4 @@
 Node.js is JavaScript on the server
+
+# list of HTTP status codes
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
