@@ -1,4 +1,5 @@
-npm init                 // install node    
+npm init                 // install node
+npm install express --save // https://expressjs.com/ .. Fast, unopinionated, minimalist web framework for Node.js
 node app.js              // run app named app.js. Terminal open to right folder
 
 
