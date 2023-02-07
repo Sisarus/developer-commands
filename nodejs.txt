@@ -4,3 +4,7 @@ node app.js              // run app named app.js. Terminal open to right folder
 
 
 npm install -g nodemon  // https://www.npmjs.com/package/nodemon  automatic restart if code changes
+nodemon app.js          // runs app named app.js. Automatic refresh
+
+
+ctrl + C * 2            // ends server
