@@ -1,0 +1,9 @@
+mongod # Run first terminal
+mongosh # Run in second terminal
+
+________Basic
+show dbs
+
+use shop
+
+db.products.insertOne({_id:1, name: "Pen", price: 1.20})
