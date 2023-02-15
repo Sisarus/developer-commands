@@ -39,5 +39,7 @@ nodemon app.js          // runs app named app.js. Automatic refresh
 npm install body-parser  // get json better  https://www.npmjs.com/package/body-parser
 const bodyParser = require('body-parser'); // How to use
 
+npm install -g npm@5.3 // downgrade node
+
 
 ctrl + C * 2            // ends server
