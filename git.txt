@@ -16,6 +16,7 @@ git add index.html            # add index.html to git
 git add -A                    # add all also from upper files
 git rm -r --cached .          # remove all files from committed
 git rm --cached index.html    # remove file from committed
+git rm -r -f --cached .          # remove force
 
 git push
 

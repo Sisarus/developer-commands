@@ -1,0 +1,28 @@
+mongod # Run first terminal
+mongosh # Run in second terminal
+
+________Basic
+show dbs
+
+use shop
+
+db.products.insertOne({_id:1, name: "Pen", price: 1.20})
+db.products.insertOne({_id:2, name: "Pencil", price: 0.80})
+
+show collections
+
+db.products.find({name: "Pencil"})
+db.products.find({price: {$gt: 1}})
+db.products.find({_id:1}, {name:1})
+db.products.updateOne({_id:1}, {$set: {stock:32}})
+db.products.updateOne({_id:2}, {$set: {stock:12}})
+
+db.products.deleteOne({_id: 2})
+
+db.products.find()
+
+db.products.insertOne({_id: 3, name: "Rubber", price: 1.3, stock: 43, reviews: [{ authorName: "Sally", rating: 5, review:"Best evrr"}]})
+
+ db.products.updateOne({_id:1}, {$set: {reviews:[{ authorName: 'NOtse', rating: 1, review: 'Best' },{ authorName: 'Tiina', rating: 2, review: 'nope' }]}})
+
+ db.dropDatabase()
