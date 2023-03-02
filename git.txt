@@ -34,3 +34,5 @@ git show 8fab09809c4e3119031a1c47b624b4c8edabae5f # show log
 git diff                                          # show changes https://git-scm.com/docs/git-diff
 
 git restore index.js  # restores modified file
+
+ls -la .git # shows content
