@@ -38,3 +38,11 @@ git restore index.js  # restores modified file
 ls -la .git # shows content
 
 git branch my1stbranch # create branch
+git branch             # shows branches
+
+git checkout my1stbranch
+
+git revert HEAD --no-edit
+
+git branch -d my1stbranch # delete brach
+
