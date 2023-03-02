@@ -46,3 +46,4 @@ git revert HEAD --no-edit
 
 git branch -d my1stbranch # delete brach
 
+git diff # shows changes
