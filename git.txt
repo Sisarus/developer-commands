@@ -36,3 +36,5 @@ git diff                                          # show changes https://git-scm
 git restore index.js  # restores modified file
 
 ls -la .git # shows content
+
+git branch my1stbranch # create branch
